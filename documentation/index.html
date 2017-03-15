@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Tamashi Themes">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Innova Documentation — Tamashi Themes</title>
+
+    <!-- CSS
+    ================================================== -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Documentation CSS -->
+    <link href="style.css" rel="stylesheet" />
+
+
+    <!-- FONTS
+    ================================================== -->
+
+    <!-- Main font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body data-spy="scroll" data-target=".tamashi-docs--menu">
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title"><img src="assets/img/logo.png"><h1>Innova Documentation <small>This file contains all you need to get started</small></h1></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 tamashi-docs--menu">
+          <ul class="nav list-group">
+            <li><a href="#installation" class="page-scroll list-group-item">Installation</a></li>
+            <li><a href="#page-structure" class="page-scroll list-group-item">Page contents</a></li>
+            <li><a href="#less" class="page-scroll list-group-item">Using LESS and Grunt</a></li>
+            <li><a href="#trans-header" class="page-scroll list-group-item">Transparent header</a></li>
+            <li><a href="#fonts" class="page-scroll list-group-item">Edit the fonts</a></li>
+            <li><a href="#flickity" class="page-scroll list-group-item">Using Flickity</a></li>
+            <li><a href="#icons" class="page-scroll list-group-item">New icons</a></li>
+            <li><a href="#colour-schemes" class="page-scroll list-group-item">Edit colour schemes</a></li>
+            <li><a href="#contact-form" class="page-scroll list-group-item">Configure contact form</a></li>
+            <li><a href="#social-icons" class="page-scroll list-group-item">Add/remove social icons</a></li>
+            <li><a href="#subscribe" class="page-scroll list-group-item">Subscribe</a></li>
+            <li><a href="#ftp" class="page-scroll list-group-item">FTP</a></li>
+          </ul>
+        </div>
+        <div class="col-md-8 main">
+          <section class="tamashi-docs" id="installation">
+            <h1>Installation</h1>
+            <p>First of all, thank you for purchasing this Bootstrap theme, your support makes it all possible!</p>
+
+            <p>This webpage takes you by hand on how to install this theme and will explain all technical details. If you are having difficulties when editing the theme I encourage you to read this page very thoroughly! You'll most likely find your answer here.</p>
+            <ol class="normal-ol">
+              <li>Unzip the downloaded file <code>tamashi-innova-1.0.4.zip</code> to a new folder that you can name however you'd like. Your unzipped folder will contain:
+                <ul>
+                  <li><code>public/</code> - Folder containing HTML files, images, compiled scripts and compiled CSS</li>
+                  <li><code>source/</code> - Folder containing all JS &amp; LESS files</li>
+                  <li><code>documentation/</code> - Folder containing the documentation</li>
+                </ul>
+              </li>
+              <li>Once your site is completed you will need to upload these files to your Web Server using FTP in order to use it on your website.</li>
+              <li>Make sure you upload the required files/folders listed below (don't upload the documentation folder):
+                <ul>
+                  <li><code>public/</code> - Upload the contents of the public folder to your FTP server</li>
+                </ul>           
+              </li>
+              <li>Congratulations! Add your content and you'll be ready to launch your brand new website!</li>
+            </ol>
+          </section>
+          <section class="tamashi-docs" id="page-structure">
+            <h1>Innova's contents</h1>
+            <p>Innova consits out of 3 parts, a UI kit, a set of 100+ custom components, and 9 pre-build pages.</p>
+
+            <h3>UI kit</h3>
+            <p>It's true, everything is styled to match Innova! <a target="_blank" href="../index.html">View the UI kit</a></p>
+
+            <h3>Innova Components</h3>
+            <p>Innova comes with 100+ components that you can use in your projects. <a target="_blank" href="../components.html">View the components</a></p>
+
+            <h3>Innova Pages</h3>
+            <ol class="normal-ol">
+              <li>Marketing homepage <code>homepage-1.html</code></li>
+              <li>Application homepage <code>homepage-2.html</code></li>
+              <li>Portfolio homepage <code>homepage-3.html</code></li>
+              <li>2x About us <code>about-us-1.html</code> &amp; <code>about-us-2.html</code></li>
+              <li>Services <code>services.html</code></li>
+              <li>Portfolio overview <code>portfolio-1.html</code></li>
+              <li>Portfolio post <code>portfolio-post-1.html</code></li>
+              <li>Contact page with working contact form! <code>contact.html</code></li>
+            </ol>
+          </section>
+          <section class="tamashi-docs" id="less">
+            <h1>Using LESS and Grunt</h1>
+            <p>Innova can be easily customized using LESS, all the theme specific files can be found in <code>source/less/innova</code>. Afterwards Bootstrap and Innova are both included in <code>theme.less</code> and <code>components.less</code>, this is also the place where you can override components to your liking! After you've edited your LESS files simply compile the files <code>theme.less</code> and <code>components.less</code> and you will have 2 brand new customized CSS files!</p>
+
+            <p>Alternatively you can also edit the precompiled <code>theme.css</code> and <code>components.css</code> file contained in the <code>public/css</code> folder.</p>
+
+            <h3>Using Grunt to compile your LESS files</h3>
+            <p>Want to do this a tad more advanced? Grunt is the way to go.</p>
+            <p>We’ve also included a custom Grunt file, which can be used to quickly re-compile a theme’s CSS and JS. You’ll need to install Grunt before using our included gruntfile.js<br><code>npm install -g grunt-cli</code></p>
+
+            <p>When you’re done, make sure you’ve installed the rest of the theme’s dependencies:<br><code>npm install</code></p>
+            
+            <p>Afterwards just run this simple command from the root folder to compile all the edited JS &amp; LESS!<br><code>grunt</code></p>
+
+            <h3>Adding new JS plugins</h3>
+            <p>To add new JS plugins, simply add the downloaded plugin file to the <code>source/js/libs</code> folder and run Grunt, the plugin will automatically compile into the main JS file! Afterwards add your custom code to <code>global.js</code> located in <code>source/js</code></p>
+            
+            <p class="bg-warning">Note: Running Grunt also starts a Browsersync session, so you can edit LESS files while the browser live reloads the changes, spiffy!</p>
+          </section>
+          <section class="tamashi-docs" id="trans-header">
+            <h1>Transparent Header</h1>
+            <p>The transparent header swaps out 2 images on scroll, however, the path to the images is absolute. You can view the example below the pages <code>homepage-1.html</code> and <code>homepage-3.html</code>.</p>
+          </section>
+          <section class="tamashi-docs" id="icons">
+            <h1>Icons</h1>
+            <p>Bamboo uses a set of 150 outlined icons made by <a href="https://www.behance.net/darioferrando">Dario Ferrande</a> and can be found <a href="http://freebiesbug.com/psd-freebies/150-free-outlined-icons-psd-ai-svg-webfont/">here</a>.<p>A list of these fonts and their mappings can be found <a target="blank" href="assets/fonts/icons-reference.html">here</a>.
+          </section>
+          <section class="tamashi-docs" id="fonts">
+            <h1>Fonts</h1>
+            <p>Innova utilizes just 1 font:<p>
+              <ol class="normal-ol">
+                <li><strong>Open Sans</strong></li>
+              </ol>
+              <p>These fonts can be edited or removed in the <code>head</code> section of the <code>index.html</code> and then in the <code>variables.less</code> document. Located in <code>source/less/innova</code> on line 58</p>
+          </section>
+          <section class="tamashi-docs" id="flickity">
+            <h1>Using Flickity</h1>
+            <p>This theme uses the amazing power of Flickity to create sliders! You can edit the settings in <code>source/js/global.js</code><p>
+
+            <p>Please view the <a href="http://flickity.metafizzy.co/">homepage of Flickity</a> itself for additional documentation!</p>
+          </section>
+          <section class="tamashi-docs" id="colour-schemes">
+            <h1>Colour Schemes</h1>
+            <p>Innova consists out of 4 colours, 1 main colour, 1 secondary colour and 1 tertiary colour, paired with a 'cool gray'.</p>
+
+            <div class="row">
+              <div class="col-md-3 primary"><div class="swatch"></div><div class="hex"><p>Primary / #3897ff</p></div></div>
+              <div class="col-md-3 secondary"><div class="swatch"></div><div class="hex"><p>Secondary / #673ab7</p></div></div>
+              <div class="col-md-3 tertiary"><div class="swatch"></div><div class="hex"><p>Tertiary / #f44336</p></div></div>
+              <div class="col-md-3 gray"><div class="swatch"></div><div class="hex"><p>Cool Gray / #445862</p></div></div>
+            </div>
+
+            <p>These colours are easily editable site-wide in the <code>variables.less</code> document. Located in <code>source/less/innova</code> from line 1 to line 34. Edit them to match your brand!</p>
+          </section>
+
+          <section class="tamashi-docs" id="contact-form">
+            <h1>Contact form</h1>
+            <p>The Innova contact form is fully functional right out of the package, spiffy! Open the file <code>processForm-contact.php</code> located in the <code>assets/email</code> folder and edit these lines:</p>
+            <pre class="prettyprint linenums">
+define( &quot;RECIPIENT_NAME&quot;, &quot;Your name&quot; );<br/>define( &quot;RECIPIENT_EMAIL&quot;, &quot;myemail@gmail.com&quot; );<br/>define( &quot;EMAIL_SUBJECT&quot;, &quot;Visitor Message&quot; );</pre>
+          </section>
+          <section class="tamashi-docs" id="social-icons">
+            <h1>Social icons</h1>
+            <p>The footer houses room for a ton of social icons, all available icons can be found on FontAwesome. Add or remove them as you see fit.</p>
+          </section>
+          <section class="tamashi-docs" id="subscribe">
+            <h1>Subscribe</h1>
+            <p>The footer houses room for a subscribe feature, you can integrate it with services like <a href="http://mailchimp.com/">Mailchimp</a>.
+          </section>
+          <section class="tamashi-docs" id="ftp">
+            <h1>Uploading to your FTP server</h1>
+            
+            <p>Congratulation, you should now be done editing your website! Upload all the files and folders inside your <code>'public'</code> folder to the root of your remote server.</p>  
+      
+            <p>We recommend using <a href="https://filezilla-project.org/download.php?type=client">Filezilla</a> to upload your files. It is fast and easy to use.</p>
+            <p class="bg-warning">Note: Make sure you don't upload the 'documentation' and 'source' folder.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="text-center">Innova Theme Documentation.<br>&copy; Tamashi Themes. All Rights Reserved</p>
+    </footer>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+
+    <!-- Jquery Core -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+    <!-- Google Prettify -->
+    <link href="assets/css/prettify/prettify.css" rel="stylesheet">
+    <script src="assets/js/prettify/prettify.js"></script>
+
+    <script type="text/javascript">
+      !function ($) {
+        $(function(){
+          window.prettyPrint && prettyPrint()   
+        })
+      }(window.jQuery)
+    </script>
+
+    <script src="assets/js/stickyMojo.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.tamashi-docs--menu').stickyMojo({footerID: 'footer', contentID: '.main'});
+      });
+    </script>
+
+    <script src="assets/js/jquery.easing.min.js"></script>
+
+    <script type="text/javascript">
+      //jQuery for page scrolling feature - requires jQuery Easing plugin
+      $(function() {
+          $('.page-scroll').bind('click', function(event) {
+              var $anchor = $(this);
+              $('html, body').stop().animate({
+                  scrollTop: $($anchor.attr('href')).offset().top
+              }, 1500, 'easeInOutExpo');
+              event.preventDefault();
+          });
+      });
+    </script>
+
+  </body>
+</html>  
