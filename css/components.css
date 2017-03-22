@@ -2281,10 +2281,10 @@ section .sub-heading {
   background-size: cover;
 }
 .masthead-11 .gallery-cell:first-child {
-  background-image: url(../img/portfolio-items/bg-3.jpg);
+  background-image: url(../img/portfolio-items/bg-3.png);
 }
 .masthead-11 .gallery-cell:nth-child(2) {
-  background-image: url(../img/portfolio-items/bg-4.jpg);
+  background-image: url(../img/portfolio-items/bg-4.png);
 }
 .masthead-11 .masthead-body {
   display: table-cell;
@@ -4901,4 +4901,8 @@ button {
   .portfolio-content-inner {
     padding: 40px 20px 0 20px;
   }
+}
+
+.imagenlogo {
+  padding-top: 3px;
 }
