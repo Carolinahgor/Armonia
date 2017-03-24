@@ -99,15 +99,15 @@ section .sub-heading {
   border-bottom: 0;
 }
 .-inverse {
-  background: -webkit-linear-gradient(10deg, #456c8c 20%, #203240 95%);
+  background: -webkit-linear-gradient(10deg, #2c3e66 20%, #20336C 95%);
   /* Chrome 10+, Saf5.1+ */
-  background: -moz-linear-gradient(10deg, #456c8c 20%, #203240 95%);
+  background: -moz-linear-gradient(10deg, #2c3e66  20%, #20336C 95%);
   /* FF3.6+ */
-  background: -ms-linear-gradient(10deg, #456c8c 20%, #203240 95%);
+  background: -ms-linear-gradient(10deg, #2c3e66  20%, #20336C 95%);
   /* IE10 */
-  background: -o-linear-gradient(10deg, #456c8c 20%, #203240 95%);
+  background: -o-linear-gradient(10deg, #2c3e66  20%, #20336C 95%);
   /* Opera 11.10+ */
-  background: linear-gradient(10deg, #456c8c 20%, #203240 95%);
+  background: linear-gradient(10deg, #2c3e66  20%, #20336C 95%);
   /* W3C */
   color: rgba(255, 255, 255, 0.6);
 }
@@ -2759,8 +2759,8 @@ section .sub-heading {
 }
 .content-7 {
   padding: 0;
-  background-image: url(../img/portfolio-items/bg-5.jpg);
-  background-size: cover;
+  background-image: url(../img/portfolio-items/Armonia.png);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center right;
 }
@@ -2854,7 +2854,8 @@ section .sub-heading {
 }
 .content-header.-blue {
   color: #fff;
-  background-color: #3897ff;
+  /*background-color: #3897ff;*/
+  background-color: #20336C;
 }
 .content-header .heading {
   padding: 0 0 3px 0;
@@ -4905,4 +4906,16 @@ button {
 
 .imagenlogo {
   padding-top: 3px;
+}
+
+#firstheadingbackground {
+  background-color: rgba(0,0,0,0.6);
+  width: 75%;
+  padding: 70px;
+}
+
+#secondheadingbackground {
+  background-color: rgba(0,0,0,0.5);
+  width: 75%;
+  padding: 50px;
 }
