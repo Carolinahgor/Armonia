@@ -83,49 +83,49 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-8">
-            <form role="form" class="contact-form" role="form" id="contactForm" action="https://formspree.io/your@email.com" method="POST">
+            <form method="POST" action="http://formspree.io/carolinahgor@gmail.com" class="contact-form" id="contactForm">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="text" class="form-control input-lg" name="firstname" autocomplete="on" required="required" id="firstname" placeholder="First Name">
+                    <input type="text" class="form-control input-lg" name="firstname" autocomplete="on" required="required" id="firstname" placeholder="Nombre">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="text" class="form-control input-lg" name="lastname" autocomplete="on" required="required" id="lastname" placeholder="Last Name">
+                    <input type="text" class="form-control input-lg" name="lastname" autocomplete="on" required="required" id="lastname" placeholder="Apellido">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="email" class="form-control input-lg" name="_replyto" autocomplete="on" required="required" id="email" placeholder="Email">
+                    <input type="email" class="form-control input-lg" name="_replyto" autocomplete="on" required="required" id="email" placeholder="Correo">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="text" class="form-control input-lg" name="subject" autocomplete="on" required="required" id="subject" placeholder="Subject">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <textarea class="form-control input-lg textarea" rows="8" required="required" name="message" id="message" placeholder="Message"></textarea>
+                    <input type="text" class="form-control input-lg" name="subject" autocomplete="on" required="required" id="subject" placeholder="Asunto">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <button type="submit" class="btn primary-btn -blue">Send a message</button>
+                  <div class="form-group">
+                    <textarea class="form-control input-lg textarea" rows="8" required="required" name="message" id="message" placeholder="Mensaje"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <button type="submit" class="btn primary-btn -blue">Enviar</button>
                 </div>
               </div>
               <div class="row">
                   <div class="col-md-12">
-                      <div id="sendingMessage" class="statusMessage"><p>Sending your message. Please wait...</p></div>
-                      <div id="successMessage" class="statusMessage"><p>Thanks for sending your message! We'll get back to you shortly.</p></div>
-                      <div id="failureMessage" class="statusMessage"><p>There was a problem sending your message. Please try again.</p></div>
-                      <div id="incompleteMessage" class="statusMessage"><p>Please complete all the fields in the form before sending.</p></div>
+                      <div id="sendingMessage" class="statusMessage"><p>Estamos enviando tu mensaje. Por favor espera...</p></div>
+                      <div id="successMessage" class="statusMessage"><p>Gracias por tu mensaje! Nos pondremos en contacto pronto.</p></div>
+                      <div id="failureMessage" class="statusMessage"><p>Hubo un problema enviando tu mensaje. Por favor intentalo de nuevo.</p></div>
+                      <div id="incompleteMessage" class="statusMessage"><p>Por favor completa todos los espacios antes de enviar.</p></div>
                   </div>
               </div>
             </form>
