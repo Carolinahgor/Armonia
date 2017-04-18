@@ -9211,3 +9211,9 @@ ul.flat-pagination > .active > span:focus {
   text-shadow: 0.5px 0.866px 2px #a02622;
   line-height: 17px;
 }
+
+@media screen and (max-width: 796px) {
+  #firstheadingbackground {
+    padding: 20px !important;
+  }
+}
