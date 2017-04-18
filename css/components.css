@@ -4910,8 +4910,18 @@ button {
 
 #firstheadingbackground {
   background-color: rgba(0,0,0,0.6);
-  width: 75%;
+  width: 70%;
   padding: 70px;
+  max-width: 960px;
+  position: relative;
+/*  margin:0 auto;
+  line-height: 1.4em;*/
+}
+
+@media screen (max-width: 786px) {
+    #firstheadingbackground > h1 {
+      font-size: 0.5em;
+    }
 }
 
 #secondheadingbackground {
@@ -4919,3 +4929,5 @@ button {
   width: 75%;
   padding: 50px;
 }
+
+
