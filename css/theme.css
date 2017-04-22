@@ -9216,6 +9216,9 @@ ul.flat-pagination > .active > span:focus {
   .heading-background {
     padding: 20px !important;
   }
+  .heading-text {
+    font-size: 32px !important;
+  }
 }
 
 @media screen and (max-width: 796px) {
