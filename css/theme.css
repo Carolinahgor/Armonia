@@ -9213,7 +9213,7 @@ ul.flat-pagination > .active > span:focus {
 }
 
 @media screen and (max-width: 796px) {
-  #firstheadingbackground {
+  .heading-background {
     padding: 20px !important;
   }
 }
