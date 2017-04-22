@@ -2288,7 +2288,7 @@ section .sub-heading {
 }
 .masthead-11 .masthead-body {
   display: table-cell;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
   padding-top: 0px;
 }
 .masthead-11 .flickity-prev-next-button.previous {

@@ -9217,3 +9217,10 @@ ul.flat-pagination > .active > span:focus {
     padding: 20px !important;
   }
 }
+
+@media screen and (max-width: 796px) {
+  #recent-work > .container {
+    padding: 0;
+  }
+}
+
