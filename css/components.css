@@ -2280,10 +2280,10 @@ section .sub-heading {
   color: #fff;
   background-size: cover;
 }
-.masthead-11 .gallery-cell:first-child {
+.masthead-11 .gallery-cell:nth-child(2) {
   background-image: url(../img/portfolio-items/bg-3.png);
 }
-.masthead-11 .gallery-cell:nth-child(2) {
+.masthead-11 .gallery-cell:nth-child(3) {
   background-image: url(../img/portfolio-items/bg-4.png);
 }
 .masthead-11 .masthead-body {
