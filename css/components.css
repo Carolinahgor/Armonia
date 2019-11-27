@@ -4684,9 +4684,16 @@ button {
   position: absolute;
   left: 165px;
   top: 7px;
+  font-weight: 900;
   display: none;
   text-align: center;
+  color: #2c3e66;
 }
+
+.statusMessage > p {
+  font-size: 20px;
+}
+
 .homepage-default .masthead-9 {
   padding-top: 120px;
   padding-bottom: 0px;

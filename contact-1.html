@@ -120,7 +120,7 @@
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <button type="submit" class="btn primary-btn -blue">Enviar</button>
+                  <button id="submit-contact-form" type="submit" class="btn primary-btn -blue">Enviar</button>
                 </div>
 
               </div>
@@ -213,6 +213,8 @@
     <script>
            $("#cotizador").on("submit", function(e) {
              e.preventDefault()
+             $('#submit-contact-form').attr('disabled', true)
+
               $('#sendingMessage').fadeIn();
               var message = $('textarea[name="message"]').val()
               var subject = $('input[name="subject"]').val()
@@ -231,9 +233,11 @@
                },
                dataType: "json"
              }).done(function(response) {
+               $('#submit-contact-form').removeAttr('disabled')
                $('#sendingMessage').fadeOut();
                $('#successMessage').fadeIn().delay(messageDelay).fadeOut();
              }).error(function(){
+               $('#submit-contact-form').removeAttr('disabled') 
                $('#failureMessage').fadeIn().delay(messageDelay).fadeOut();
              });
             });
